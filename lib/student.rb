@@ -92,7 +92,6 @@ def self.all_students_in_grade_X
   SQL
   DB[:conn].execute(sql,10)
   end
-end
 
   def save
     sql = <<-SQL
